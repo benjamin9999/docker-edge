@@ -1,0 +1,14 @@
+[soltra]
+name=soltra base repository
+baseurl=http://updates.soltra.com/centos/$releasever/base/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=http://updates.soltra.com/keys/soltra_base_package_signing_key_public.asc
+
+[soltra-security]
+name=soltra security repository
+baseurl=http://updates.soltra.com/centos/$releasever/security/$basearch/
+enabled=1
+gpgcheck=1
+metadata_expire=5m
+gpgkey=http://updates.soltra.com/keys/soltra_security_package_signing_key_public.asc
